@@ -1,20 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
-    <title>My GitHub Website</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Therapie Boerderij</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    <main>
-        <p>This is my new website hosted on GitHub Pages!</p>
-    </main>
-    <footer>
-        <p>© 2025 - Created with GitHub Pages</p>
-    </footer>
+  <!-- Header met grote afbeelding -->
+  <header>
+    <div class="header-content">
+      <h1>Belle Weyde</h1>
+      
+    </div>
+  </header>
+  
+  <!-- Navigatie -->
+  <nav>
+    <ul>
+      <li><a href="#motorische-therapie">Motorische Therapie</a></li>
+      <li><a href="#zelfontwikkeling">Zelfontwikkeling</a></li>
+      <li><a href="#aangepast-paardrijden">Aangepast Paardrijden</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <!-- Sectie kaarten -->
+    <div class="sections">
+      <!-- Sectie 1: Motorische therapie -->
+      <div class="section-card" id="motorische-therapie">
+        <div class="image-container">
+            <img src="1.jpg" alt="Kind op paard tijdens therapie" class="image-slide active">
+            <img src="4.jpg" alt="Kind op paard tijdens therapie" class="image-slide">
+            <img src="9.jpg" alt="Kind op paard tijdens therapie" class="image-slide">
+          </div>
+        <div class="section-content">
+          <h2>Motorische Therapie – Beweging als krachtbron</h2>
+          <p>Motorische therapie richt zich op kinderen en jongeren met een fysieke beperking. Door op het paard te zitten en de bewegingen te volgen, ervaart het lichaam een natuurlijke stimulans.</p>
+          <p>Dit draagt bij aan <strong>spierontspanning, vermindering van spasticiteit, verbeterd evenwicht en rompstabiliteit</strong>. Daarnaast helpt het bij het ontwikkelen van de motoriek op een plezierige en ontspannen manier.</p>
+        </div>
+      </div>
+      
+      <!-- Sectie 2: Zelfontwikkeling -->
+      <div class="section-card" id="zelfontwikkeling">
+        <div class="image-container">
+        <img src="2.jpg" alt="Jong persoon in interactie met paard" class="image-slide active">
+        <img src="8.jpg" alt="Jong persoon in interactie met paard" class="image-slide">
+        <img src="7.jpg" alt="Jong persoon in interactie met paard" class="image-slide">
+    </div>
+        <div class="section-content">
+          <h2>Zelfontwikkeling – Groeien met paarden</h2>
+          <p>Naast de motorische voordelen bieden paarden ook een unieke kans om aan persoonlijke ontwikkeling te werken.</p>
+          <p>In onze sessies richten we ons op <strong>zelfbewustzijn, talentontwikkeling en het omgaan met uitdagingen</strong>. Dit gebeurt zowel op als naast het paard. De interactie met het paard en de omgeving helpt kinderen en jongeren om hun emoties en gedrag beter te begrijpen en zelfvertrouwen op te bouwen.</p>
+        </div>
+      </div>
+      
+      <!-- Sectie 3: Aangepast paardrijden -->
+      <div class="section-card" id="aangepast-paardrijden">
+        <div class="image-container">
+        <img src="3.jpg" alt="Aangepast paardrijden met ondersteuning" class="image-slide active">
+        <img src="5.jpg" alt="Aangepast paardrijden met ondersteuning" class="image-slide active">
+        <img src="6.jpg" alt="Aangepast paardrijden met ondersteuning" class="image-slide active">
+        </div>
+        <div class="section-content">
+          <h2>Aangepast Paardrijden – Plezier en inclusie</h2>
+          <p>Voor kinderen en jongeren die graag willen paardrijden maar daarbij extra ondersteuning nodig hebben, bieden we <strong>aangepast paardrijden</strong>.</p>
+          <p>Dit is paardrijles met de nodige aanpassingen, zodat iedereen kan genieten van een veilige en plezierige ervaring. De focus ligt op <strong>beleving, ontspanning en succeservaringen</strong>.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Call-to-Action -->
+    <div class="cta">
+      <h2>Ontdek wat Belle Weyde voor jou kan betekenen</h2>
+      <p>Wij geloven in de helende kracht van paarden en bieden een veilige, ondersteunende omgeving voor groei en ontwikkeling.</p>
+      <a href="#contact" class="cta-button">Neem contact op</a>
+    </div>
+  </main>
+  
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p>Parijstraat 30</p>
+        <p>3211 Binkom</p>
+        <p>Email: <a href="mailto:belleweyde@gmail.com">belleweyde@gmail.com</a></p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Volg ons</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="copyright">
+      <p>&copy; 2025. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+  <script src="gallery.js"></script>
 </body>
 </html>
